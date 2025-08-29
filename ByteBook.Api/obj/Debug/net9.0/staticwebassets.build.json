@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "expVvfygVCax+mqnsYYhHi+tDH3Ows15YbenZchmZwU=",
+  "Source": "ByteBook.Api",
+  "BasePath": "_content/ByteBook.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

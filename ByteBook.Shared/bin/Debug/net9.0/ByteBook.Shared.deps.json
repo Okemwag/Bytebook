@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ByteBook.Shared/1.0.0": {
+        "runtime": {
+          "ByteBook.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ByteBook.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

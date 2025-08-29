@@ -1,0 +1,71 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ByteBook.Infrastructure/1.0.0": {
+        "dependencies": {
+          "ByteBook.Application": "1.0.0",
+          "ByteBook.Domain": "1.0.0",
+          "ByteBook.Shared": "1.0.0"
+        },
+        "runtime": {
+          "ByteBook.Infrastructure.dll": {}
+        }
+      },
+      "ByteBook.Application/1.0.0": {
+        "dependencies": {
+          "ByteBook.Domain": "1.0.0",
+          "ByteBook.Shared": "1.0.0"
+        },
+        "runtime": {
+          "ByteBook.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ByteBook.Domain/1.0.0": {
+        "runtime": {
+          "ByteBook.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ByteBook.Shared/1.0.0": {
+        "runtime": {
+          "ByteBook.Shared.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ByteBook.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ByteBook.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ByteBook.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ByteBook.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

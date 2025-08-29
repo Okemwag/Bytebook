@@ -1,0 +1,11 @@
+/home/okemwag/flop/ByteBook.Shared/bin/Debug/net9.0/ByteBook.Shared.deps.json
+/home/okemwag/flop/ByteBook.Shared/bin/Debug/net9.0/ByteBook.Shared.dll
+/home/okemwag/flop/ByteBook.Shared/bin/Debug/net9.0/ByteBook.Shared.pdb
+/home/okemwag/flop/ByteBook.Shared/obj/Debug/net9.0/ByteBook.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/okemwag/flop/ByteBook.Shared/obj/Debug/net9.0/ByteBook.Shared.AssemblyInfoInputs.cache
+/home/okemwag/flop/ByteBook.Shared/obj/Debug/net9.0/ByteBook.Shared.AssemblyInfo.cs
+/home/okemwag/flop/ByteBook.Shared/obj/Debug/net9.0/ByteBook.Shared.csproj.CoreCompileInputs.cache
+/home/okemwag/flop/ByteBook.Shared/obj/Debug/net9.0/ByteBook.Shared.dll
+/home/okemwag/flop/ByteBook.Shared/obj/Debug/net9.0/refint/ByteBook.Shared.dll
+/home/okemwag/flop/ByteBook.Shared/obj/Debug/net9.0/ByteBook.Shared.pdb
+/home/okemwag/flop/ByteBook.Shared/obj/Debug/net9.0/ref/ByteBook.Shared.dll

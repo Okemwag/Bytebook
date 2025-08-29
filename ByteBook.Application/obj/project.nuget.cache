@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/Qh9ky4YX+I=",
+  "success": true,
+  "projectFilePath": "/home/okemwag/flop/ByteBook.Application/ByteBook.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/okemwag/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.8/microsoft.aspnetcore.app.ref.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

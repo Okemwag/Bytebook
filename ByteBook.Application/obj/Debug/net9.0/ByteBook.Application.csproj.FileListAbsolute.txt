@@ -1,0 +1,17 @@
+/home/okemwag/flop/ByteBook.Application/bin/Debug/net9.0/ByteBook.Application.deps.json
+/home/okemwag/flop/ByteBook.Application/bin/Debug/net9.0/ByteBook.Application.dll
+/home/okemwag/flop/ByteBook.Application/bin/Debug/net9.0/ByteBook.Application.pdb
+/home/okemwag/flop/ByteBook.Application/bin/Debug/net9.0/ByteBook.Domain.dll
+/home/okemwag/flop/ByteBook.Application/bin/Debug/net9.0/ByteBook.Shared.dll
+/home/okemwag/flop/ByteBook.Application/bin/Debug/net9.0/ByteBook.Domain.pdb
+/home/okemwag/flop/ByteBook.Application/bin/Debug/net9.0/ByteBook.Shared.pdb
+/home/okemwag/flop/ByteBook.Application/obj/Debug/net9.0/ByteBook.Application.csproj.AssemblyReference.cache
+/home/okemwag/flop/ByteBook.Application/obj/Debug/net9.0/ByteBook.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/okemwag/flop/ByteBook.Application/obj/Debug/net9.0/ByteBook.Application.AssemblyInfoInputs.cache
+/home/okemwag/flop/ByteBook.Application/obj/Debug/net9.0/ByteBook.Application.AssemblyInfo.cs
+/home/okemwag/flop/ByteBook.Application/obj/Debug/net9.0/ByteBook.Application.csproj.CoreCompileInputs.cache
+/home/okemwag/flop/ByteBook.Application/obj/Debug/net9.0/ByteBook.94C0C618.Up2Date
+/home/okemwag/flop/ByteBook.Application/obj/Debug/net9.0/ByteBook.Application.dll
+/home/okemwag/flop/ByteBook.Application/obj/Debug/net9.0/refint/ByteBook.Application.dll
+/home/okemwag/flop/ByteBook.Application/obj/Debug/net9.0/ByteBook.Application.pdb
+/home/okemwag/flop/ByteBook.Application/obj/Debug/net9.0/ref/ByteBook.Application.dll
