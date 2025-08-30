@@ -128,6 +128,14 @@ public class User : BaseEntity
         AddDomainEvent(new UserActivatedEvent(Id, Email.Value));
     }
 
+    public void ChangePassword(string newPasswordHash)
+    {
+        PasswordHash = newPasswordHash;
+        UpdatedAt = DateTime.UtcNow;
+        
+        AddDomainEvent(new UserPasswordChangedEvent(Id, Email.Value));
+    }
+
     public string GetFullName() => $"{FirstName} {LastName}";
 }
 

@@ -264,10 +264,7 @@ public class AuthenticationService : IAuthenticationService
 
             // Update password
             var newPasswordHash = HashPassword(dto.NewPassword);
-            // Note: We'll need to add a ChangePassword method to User entity
-            // For now, we'll use reflection or create a temporary solution
-            var passwordProperty = typeof(User).GetProperty("PasswordHash");
-            passwordProperty?.SetValue(user, newPasswordHash);
+            user.ChangePassword(newPasswordHash);
 
             await _userRepository.UpdateAsync(user);
 

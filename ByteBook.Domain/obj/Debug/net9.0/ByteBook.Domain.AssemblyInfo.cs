@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ByteBook.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e4d52a3e7c929505bb0ac30a7de86618283d057")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b01de94affe0f2caab25cbd033d441653399946")]
 [assembly: System.Reflection.AssemblyProductAttribute("ByteBook.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ByteBook.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

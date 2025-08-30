@@ -68,14 +68,14 @@
   - Write unit tests for DTO validation rules
   - _Requirements: 1.1, 1.2, 2.1, 2.2, 3.1_
 
-- [ ] 3.2 Implement Authentication Service
+- [x] 3.2 Implement Authentication Service
   - Create authentication service with registration, login, and token management
   - Implement email verification and password reset functionality
   - Add JWT token generation and refresh token handling
   - Write unit tests for authentication flows and edge cases
   - _Requirements: 1.1, 1.2, 1.3, 1.4_
 
-- [ ] 3.3 Implement Book Management Service
+- [x] 3.3 Implement Book Management Service
   - Create book service with CRUD operations, publishing, and content management
   - Add content upload handling and AI-powered formatting integration
   - Implement plagiarism detection and content validation
