@@ -6,6 +6,7 @@ public interface IBookRepository : IRepository<Book>
 {
     Task<IEnumerable<Book>> GetByAuthorAsync(int authorId, CancellationToken cancellationToken = default);
     Task<IEnumerable<Book>> GetPublishedBooksAsync(int skip = 0, int take = 50, CancellationToken cancellationToken = default);
+    Task<IEnumerable<Book>> GetAllPublishedBooksAsync(CancellationToken cancellationToken = default);
     Task<IEnumerable<Book>> GetByCategoryAsync(string category, int skip = 0, int take = 50, CancellationToken cancellationToken = default);
     Task<IEnumerable<Book>> SearchAsync(string query, string? category = null, int skip = 0, int take = 50, CancellationToken cancellationToken = default);
     Task<Book?> GetWithAuthorAsync(int bookId, CancellationToken cancellationToken = default);

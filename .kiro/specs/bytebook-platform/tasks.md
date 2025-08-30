@@ -109,7 +109,7 @@
   - Write integration tests for email sending and file operations
   - _Requirements: 1.3, 2.1, 6.1_
 
-- [ ] 4.3 Configure Redis Caching and Elasticsearch
+- [x] 4.3 Configure Redis Caching and Elasticsearch
   - Setup Redis caching for frequently accessed data and session management
   - Configure Elasticsearch for book search and content indexing
   - Implement caching strategies for book content and user sessions
@@ -122,7 +122,7 @@
   - Add API documentation with Swagger/OpenAPI
   - _Requirements: 10.1, 10.2, 10.6_
 
-- [ ] 5.1 Implement Authentication Controllers
+- [x] 5.1 Implement Authentication Controllers
   - Create AuthController with registration, login, and token refresh endpoints
   - Add email verification and password reset endpoints
   - Implement proper error responses and validation error handling
