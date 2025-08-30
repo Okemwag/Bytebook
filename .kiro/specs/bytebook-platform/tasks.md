@@ -82,7 +82,7 @@
   - Write unit tests for book management operations
   - _Requirements: 2.1, 2.2, 2.3, 2.4, 2.5_
 
-- [ ] 3.4 Implement Payment Processing Service
+- [x] 3.4 Implement Payment Processing Service
   - Create payment service with charge calculation and processing logic
   - Add support for multiple payment providers (Stripe, PayPal, M-Pesa)
   - Implement refund processing and author earnings calculation
@@ -95,14 +95,14 @@
   - Configure caching and search services
   - _Requirements: 3.1, 3.2, 6.1, 7.1, 7.2_
 
-- [ ] 4.1 Implement Payment Provider Integrations
+- [x] 4.1 Implement Payment Provider Integrations
   - Create Stripe payment processor with webhook handling
   - Implement PayPal integration for alternative payment method
   - Add M-Pesa integration for mobile money payments
   - Write integration tests for payment provider communications
   - _Requirements: 3.1, 3.2, 3.4_
 
-- [ ] 4.2 Setup Email and File Storage Services
+- [x] 4.2 Setup Email and File Storage Services
   - Implement SendGrid email service for transactional emails
   - Create file storage service with AWS S3 or Azure Blob Storage
   - Add email templates for verification, password reset, and notifications
