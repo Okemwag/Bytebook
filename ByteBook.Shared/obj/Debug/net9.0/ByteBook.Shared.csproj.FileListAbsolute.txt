@@ -9,3 +9,4 @@
 /home/okemwag/flop/ByteBook.Shared/obj/Debug/net9.0/refint/ByteBook.Shared.dll
 /home/okemwag/flop/ByteBook.Shared/obj/Debug/net9.0/ByteBook.Shared.pdb
 /home/okemwag/flop/ByteBook.Shared/obj/Debug/net9.0/ref/ByteBook.Shared.dll
+/home/okemwag/flop/ByteBook.Shared/obj/Debug/net9.0/ByteBook.Shared.sourcelink.json

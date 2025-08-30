@@ -17,3 +17,6 @@
 /home/okemwag/flop/ByteBook.Infrastructure/obj/Debug/net9.0/refint/ByteBook.Infrastructure.dll
 /home/okemwag/flop/ByteBook.Infrastructure/obj/Debug/net9.0/ByteBook.Infrastructure.pdb
 /home/okemwag/flop/ByteBook.Infrastructure/obj/Debug/net9.0/ref/ByteBook.Infrastructure.dll
+/home/okemwag/flop/ByteBook.Infrastructure/bin/Debug/net9.0/ByteBook.Infrastructure.runtimeconfig.json
+/home/okemwag/flop/ByteBook.Infrastructure/obj/Debug/net9.0/ByteBook.Infrastructure.sourcelink.json
+/home/okemwag/flop/ByteBook.Infrastructure/obj/Debug/net9.0/ByteBook.Infrastructure.genruntimeconfig.cache

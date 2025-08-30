@@ -1,3 +1,5 @@
+using ByteBook.Domain.Events;
+
 namespace ByteBook.Domain.Entities;
 
 public abstract class BaseEntity
@@ -30,9 +32,4 @@ public abstract class BaseEntity
     {
         _domainEvents.Clear();
     }
-}
-
-public interface IDomainEvent
-{
-    DateTime OccurredOn { get; }
 }

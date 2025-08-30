@@ -1,0 +1,43 @@
+version: '3.8'
+
+# Override for development environment
+services:
+  api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - Logging__LogLevel__Default=Information
+      - Logging__LogLevel__Microsoft.AspNetCore=Warning
+    volumes:
+      # Mount source code for hot reload (if using dotnet watch)
+      - ./ByteBook.Api:/app/source:ro
+    ports:
+      - "8080:8080"
+      - "8081:8081" # Additional port for debugging
+
+  postgres:
+    environment:
+      - POSTGRES_DB=ByteBookDb_Dev
+    ports:
+      - "5433:5432" # Different port to avoid conflicts
+
+  # Development tools
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: bytebook-pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@bytebook.com
+      PGADMIN_DEFAULT_PASSWORD: admin123
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+    ports:
+      - "8082:80"
+    depends_on:
+      - postgres
+    networks:
+      - bytebook-network
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+
+volumes:
+  pgadmin_data:
+    driver: local

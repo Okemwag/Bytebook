@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ByteBook.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed562ca41c2330cd1e64222cec8cb14129ea4b32")]
 [assembly: System.Reflection.AssemblyProductAttribute("ByteBook.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ByteBook.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

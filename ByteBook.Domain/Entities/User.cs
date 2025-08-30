@@ -19,13 +19,20 @@ public class User : BaseEntity
     public bool IsActive { get; private set; }
     public DateTime LastLoginAt { get; private set; }
     
-    // Navigation properties
-    public ICollection<Book> AuthoredBooks { get; private set; } = new List<Book>();
-    public ICollection<Payment> Payments { get; private set; } = new List<Payment>();
-    public ICollection<Referral> Referrals { get; private set; } = new List<Referral>();
-    public ICollection<Reading> Readings { get; private set; } = new List<Reading>();
+    // Navigation properties - will be uncommented when entities are created
+    // public ICollection<Book> AuthoredBooks { get; private set; } = new List<Book>();
+    // public ICollection<Payment> Payments { get; private set; } = new List<Payment>();
+    // public ICollection<Referral> Referrals { get; private set; } = new List<Referral>();
+    // public ICollection<Reading> Readings { get; private set; } = new List<Reading>();
 
-    private User() { } // EF Core
+    private User() 
+    { 
+        FirstName = string.Empty;
+        LastName = string.Empty;
+        Email = new Email("placeholder@example.com");
+        PasswordHash = string.Empty;
+        Profile = new UserProfile();
+    } // EF Core
 
     public User(string firstName, string lastName, Email email, string passwordHash, UserRole role = UserRole.Reader)
     {
@@ -97,10 +104,12 @@ public class User : BaseEntity
         AddDomainEvent(new UserProfileUpdatedEvent(Id, Email.Value));
     }
 
-    public void UpdateLastLogin()
+    public void UpdateLastLogin(string? ipAddress = null, string? userAgent = null)
     {
         LastLoginAt = DateTime.UtcNow;
         UpdatedAt = DateTime.UtcNow;
+        
+        AddDomainEvent(new UserLoginEvent(Id, Email.Value, ipAddress, userAgent));
     }
 
     public void Deactivate()
