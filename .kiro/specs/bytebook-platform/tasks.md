@@ -55,13 +55,13 @@
   - Configure database indexes for performance optimization
   - _Requirements: 1.1, 2.1, 3.1_
 
-- [ ] 3. Implement Application Layer Services
+- [-] 3. Implement Application Layer Services
   - Create DTOs for all API operations
   - Implement use cases for authentication, book management, and payments
   - Add validation behaviors and error handling
   - _Requirements: 1.1, 1.2, 2.1, 2.2, 3.1, 3.2_
 
-- [ ] 3.1 Create DTOs and Validation
+- [x] 3.1 Create DTOs and Validation
   - Implement all DTOs for authentication, book management, payments, and user operations
   - Add FluentValidation rules for all DTOs with comprehensive validation
   - Create mapping profiles using AutoMapper for entity-DTO conversions
